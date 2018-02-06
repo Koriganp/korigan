@@ -1,2 +1,4 @@
 # korigan
-home page
+Dev Server landing page
+
+https://korigan.me
