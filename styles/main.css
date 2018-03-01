@@ -1,0 +1,28 @@
+/************************************************************************/
+/*Universal for site*/
+/************************************************************************/
+
+
+/*change font for site*/
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+	background-color: white;
+}
+
+/*Set height for site*/
+body, html {
+	height: 100%;
+}
+
+/*Color First Letter*/
+.first-letter {
+	color: blue;
+	font-weight: bold;
+}
+
+
