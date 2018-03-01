@@ -16,7 +16,7 @@
 
 		<!-- Google Fonts -->
 
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Raleway" rel="stylesheet"/>
 
 		<!-- Font Awesome -->
 
@@ -32,13 +32,18 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-
-
 		<!-- My JavaScript -->
 
 		<script src="js/main.js"></script>
 
 		<!-- My Favicon -->
+
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="images/favicon/manifest.json">
+		<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
 
 		<!-- For Search Engine Optimization -->
 
@@ -47,28 +52,19 @@
 	<body>
 		<header>
 			<nav class="navbar fixed-top navbar-expand-md navbar-light site-nav">
-				<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" itemprop="image logo" src="images/KD.png"><strong itemprop="name"> <span class="first-letter">K</span>origan Design</strong></a>
-				<button class="navbar-toggler position-toggle" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="text-dark my-2" href="index.html">Home </a>
-						</li>
-						<li class="nav-item">
-							<a class="text-dark my-2" href="https://korigandesign.com"> Korigan Design </a>
-						</li>
-						<li class="nav-item">
-							<a class="text-dark my-2" href="https://designbykorigan.com"> Design By Korigan </a>
-						</li>
-						<li class="nav-item">
-							<a class="text-dark my-2" href="https://koriganpayne.com"> Korigan Payne </a>
-						</li>
-						<li class="nav-item">
-							<a class="text-dark my-2" href="#"> Projects </a>
-						</li>
-					</ul>
+				<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" src="images/KD.png"><strong> <span class="first-letter">K</span>origan Design</strong></a>
+				<div class="navbar-nav ml-auto">
+					<div class="nav-item">
+						<div class="dropdown">
+							<button class="btn btn-primary dropdown-toggle mr-5" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Projects </button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								<a class="dropdown-item" href="http://csquarecustomcupcakes.com/" target="_blank">C<sup>2</sup> Custom Cupcakes</a>
+								<a class="text-dark my-2" href="https://korigandesign.com" target="_blank"> Korigan Design </a>
+								<a class="text-dark my-2" href="https://designbykorigan.com" target="_blank"> Design By Korigan </a>
+								<a class="text-dark my-2" href="https://koriganpayne.com" target="_blank"> Korigan Payne </a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</nav>
 		</header>
