@@ -1,4 +1,4 @@
 # korigan
-Dev Server landing page
+Landing page for clients to view current and past projects.
 
 https://korigan.me
