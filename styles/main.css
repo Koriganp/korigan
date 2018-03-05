@@ -139,3 +139,15 @@ li > a:hover {
 		border-color: white;
 	}
 }
+
+.home-image {
+	width: 100%;
+	padding-top: 8rem;
+}
+
+.nothing {
+	font-family: 'Nothing You Could Do', cursive;
+}
+ .apple {
+	 font-family: 'Homemade Apple', cursive;
+ }
